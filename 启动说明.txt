@@ -1,0 +1,17 @@
+
+搭建说明：
+除开zookeeper-server模块，其它模块可直接在maven库上寻找并通过pom依赖导入，像zookeeper-jute模块；
+
+单机启动：
+ZooKeeperServerMain
+
+集群启动：
+QuorumPeerMain
+
+启动参数：
+-Dlog4j.configuration=file:E:/idea-workspace/zk3.5.6/zookeeper-branch-3.5.6/conf/log4j.properties
+
+project arguments：
+E:\idea-workspace\zk3.5.6\zookeeper-branch-3.5.6\conf\zoo.cfg
+
+
